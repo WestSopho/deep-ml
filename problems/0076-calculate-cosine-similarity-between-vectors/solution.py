@@ -9,9 +9,10 @@ def cosine_similarity(v1, v2):
     Returns:
         The cosine_similarity of the two vectors.
     """
+
     vec1 = np.array(v1)
     vec2 = np.array(v2)
-    # We use the Cauchy-Schwarz inequality to get the cosine cosine similarity.
+    # We use Cauchy-Schwarz, and compute dot products
     numerator = vec1 @ vec2
     denominator = np.sqrt(vec1 @ vec1) * np.sqrt(vec2 @ vec2)
     return numerator / denominator
