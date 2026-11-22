@@ -13,13 +13,13 @@ def compute_norm(arr: np.ndarray, norm_type: str) -> float:
     Returns:
         The computed norm as a float
     """
-    # We use the statements direclty, and use several ifs. 
-    if norm_type == "l1": 
-        return np.sum(np.abs(arr))
-    if norm_type == "l2": 
+    # We use the statements directly, and use several ifs. 
+    if norm_type == "l1":
+        return np.sum(np.abs(arr), dtype=float)
+    if norm_type == "l2":
         return np.sqrt(np.sum(arr ** 2))
-    if norm_type == "linf": 
-        return np.max(np.abs(arr))
-    if arr.ndim != 2 and norm_type == 'frobenius': 
-        raise ValueError
-    return np.sqrt(np.sum(arr ** 2))
+    if norm_type == "linf":
+        return np.float32(np.max(np.abs(arr)))
+    if arr.ndim == 2 and norm_type == 'frobenius':
+        return np.sqrt(np.sum(arr**2))
+    raise ValueError
