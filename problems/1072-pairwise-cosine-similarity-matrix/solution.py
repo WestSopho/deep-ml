@@ -1,6 +1,10 @@
 import numpy as np
 
 def pairwise_cosine_similarity(X):
+    # We create the matrix by multiplying A @ A^T. 
+    # Here the multiplication is a row of A by a column of A^T
+    # (row of A). The result of this multiplication is a 
+    # (n x n) matrix called cos_sim_mat. 
     X_arr = np.array(X)
     rows, cols = X_arr.shape
     cos_sim_mat = np.zeros((rows, rows))
