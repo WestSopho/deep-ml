@@ -1,6 +1,7 @@
 import numpy as np
 
 def transform_matrix(A: list[list[int|float]], T: list[list[int|float]], S: list[list[int|float]]) -> list[list[int|float]]:
+    # Return the matrix multiplication, or return -1 if T or S are not invertible
     a_mat = np.array(A)
     t_mat = np.array(T)
     s_mat = np.array(S)
