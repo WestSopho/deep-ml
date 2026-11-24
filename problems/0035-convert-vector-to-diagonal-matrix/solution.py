@@ -1,5 +1,5 @@
 import numpy as np
 
 def make_diagonal(x):
-    # Convert the array into a matrix; use diag function
+    # Return a matrix whose diagonal consits of x's elements
     return np.diag(np.array(x))
