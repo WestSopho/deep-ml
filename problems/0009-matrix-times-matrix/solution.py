@@ -3,10 +3,7 @@ import numpy as np
 
 def matrixmul(a:list[list[int|float]],
               b:list[list[int|float]])-> list[list[int|float]]:
-    # Convert lists to numpy arrays.
-    # Check that the cols of a and rows of b are the same.
-    # Compute the matrix computation. 
-    # Return the result as a Python list.
+    # Return AB as a Python list; A's cols must be equal to B's rows
     a_mat = np.array(a)
     b_mat = np.array(b)
     if a_mat.shape[1] != b_mat.shape[0]: 
