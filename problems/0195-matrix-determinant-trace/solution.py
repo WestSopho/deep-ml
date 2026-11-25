@@ -11,7 +11,6 @@ def matrix_determinant_and_trace(matrix: list[list[float]]) -> tuple[float, floa
     Returns:
         Tuple of (determinant, trace)
     """
-    # Return the determinant and trace as floats
+    # Return the determinant and trace as a tuple of flots
     mat = np.array(matrix)
-    return (np.linalg.det(matrix), np.float64(np.sum(np.diag(matrix))))
-    
+    return (np.linalg.det(mat), np.float64(np.sum(np.diag(mat))))
