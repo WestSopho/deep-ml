@@ -12,9 +12,10 @@ def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
         The inverse matrix as a 2x2 list, or None if the matrix is singular
         (i.e., determinant equals zero)
     """
-    # Return the inverse of the matrix A as a list of lists
+    # Return A^{-1} as a lists of lists, or -1 if A has determinant 0
     mat = np.array(matrix)
-    determinant = np.linalg.det(mat)
-    if np.isclose(determinant, 0): 
+    det = mat[0,0]*mat[1,1] - mat[0,1]*mat[1,0]
+    if np.isclose(det, 0):
         return None
-    return ((1 / determinant) * np.array([[mat[1,1], -mat[0,1]], [-mat[1,0], mat[0,0]]])).tolist()
+    adjugate = np.array([[mat[1,1], -mat[0,1]], [-mat[1,0], mat[0,0]]])
+    return (1 / det * adjugate).tolist()
