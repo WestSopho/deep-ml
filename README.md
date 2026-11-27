@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**23** solved · 23 problems · 0 labs · 0 math
+**24** solved · 24 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -24,6 +24,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Pairwise Cosine Similarity Matrix](https://www.deep-ml.com/problems/1072) | easy | 2026-11-23 | [solution](problems/1072-pairwise-cosine-similarity-matrix) |
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2026-11-23 | [solution](problems/0003-reshape-matrix) |
 | [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2026-11-23 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
+| [Tensor Puzzle: Circular Roll by One](https://www.deep-ml.com/problems/1277) | easy | 2026-11-27 | [solution](problems/1277-tensor-puzzle-circular-roll-by-one) |
 | [Tensor Puzzle: Extract the Diagonal](https://www.deep-ml.com/problems/1271) | easy | 2026-11-27 | [solution](problems/1271-tensor-puzzle-extract-the-diagonal) |
 | [Tensor Puzzle: Heaviside Step with Zero-Value](https://www.deep-ml.com/problems/1286) | easy | 2026-11-27 | [solution](problems/1286-tensor-puzzle-heaviside-step-with-zero-value) |
 | [Tensor Puzzle: Identity Matrix from Comparisons](https://www.deep-ml.com/problems/1272) | easy | 2026-11-27 | [solution](problems/1272-tensor-puzzle-identity-matrix-from-comparisons) |
