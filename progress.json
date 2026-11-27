@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:09:49.131Z",
+  "generated_at": "2026-11-27T13:26:57.561Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -260,6 +260,19 @@
       "last_pushed_at": "2026-11-27T13:09:47.192Z",
       "language": "python",
       "lines": 9
+    },
+    "problem:1286": {
+      "kind": "problem",
+      "id": "1286",
+      "title": "Tensor Puzzle: Heaviside Step with Zero-Value",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1286",
+      "path": "problems/1286-tensor-puzzle-heaviside-step-with-zero-value",
+      "first_solved_at": "2026-11-27T13:26:55.689Z",
+      "last_pushed_at": "2026-11-27T13:26:55.689Z",
+      "language": "python",
+      "lines": 11
     }
   }
 }
